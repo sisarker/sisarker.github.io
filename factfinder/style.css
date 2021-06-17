@@ -1,0 +1,52 @@
+#main{
+	background-color: DarkSeaGreen;
+	width: 600px;
+	height: 400px;
+	border: 10px solid DarkSlateGrey;
+	color: maroon;
+	display: grid;
+	margin: 10px;
+	border-radius: 10px;
+	grid-template: 1fr / 1.7fr 5fr ;
+}				/* row heights	/ column widths */
+
+form{
+	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr;
+	grid gap: 10px;
+	padding: 10px;
+}
+
+form > input{
+	background-color: BurlyWood;
+	color: black;
+	border: 2px solid;
+	border-radius: 4px; 
+}
+
+form > input:hover{
+	background-color: DarkKhaki;
+}
+
+#b{
+	padding: 15px;
+}
+
+body{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#main > div{
+	color: DarkGrey;
+	font-size: 30px;
+	border: 8px solid DarkGrey;
+	background-color: DarkSlateBlue;
+}
+
+img{
+	width: 140px;
+	border-radius: 5px;
+	margin: 5px;
+}
